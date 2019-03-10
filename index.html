@@ -1,0 +1,23 @@
+<html>
+<body>
+<h1>Seeking Interactions</h1>
+<h2><a href="https://flowingdata.com/2018/05/22/basketball-stat-cherry-picking/" Follow this link to see an interactive visualization
+relating a specific stat of an NBA player in a game 
+and the likelihood that their team won that game.></a>
+<p>The page includes two different visualizations, both of which implement features
+of interactive visualizations that Scott Murray discusses in <i>Interactive Data Visualization for
+the Web</i>. Ten NBA players are featured. Switching from one to another, on either visualization, changes all of the graphs
+and they transition in the way Murray discusses starting on page 158. The transition feature
+can be employed in D3 with the code .transition(), allowing D3 to interpolate between old values and new values
+and showing the in-between values rather than jumping immediately from one to another.</p>
+<p>The graphs also employ a "hover to highlight" feature Murray demonstrates on page 197. 
+Hovering over a bar in a graph changes the color of the bar from blue to black
+to differentiate it from the others and provides more information about the statistic it is displaying. Similarly,
+hovering over a square in the second visualization outlines the square with a thin black
+outline and explains more information about the square. While
+the graphs themselves allow the viewer to understand some trends, it is by hovering that 
+information is truly portrayed. The hover feature only requires CSS; the label that appears
+can be crafted using a "hidden div" in HTML, according to Murray.<p>
+
+</body>
+</html>
